@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<h3>¿Alcohol o gasolina?</h3>
+
+<script>
+    var tanque = 40;
+    var RecorridoConGasolina = 480;
+    var eficiencia = RecorridoConGasolina/tanque;
+    document.write("Vehiculo con tanque de 40 lt")
+    document.write("<br>");
+    document.write("Recorrido total con Gasolina")
+    document.write("<br>"); 
+    document.write("La eficiencia del Recorrido con Gasolina es: " + (eficiencia + " " +"km/lt"))
+    document.write("<br>");
+    document.write("<br>");
+     
+    var RecorridoConAlcohol = 300;
+    //Esta forma sirve siempre y cuando la operación sea compleja
+    //var RecorridoConAlcohol = RecorridoConAlcohol/tanque;
+    document.write("Vehiculo con tanque de 40 lt")
+    document.write("<br>");
+    document.write("Recorrido total con Alcohol")
+    document.write("<br>"); 
+    document.write("La eficiencia del Recorrido con Alcohol es: " + (RecorridoConAlcohol / tanque + " " + "km/lt"))
+
+</script>
